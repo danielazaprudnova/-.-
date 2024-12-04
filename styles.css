@@ -1,0 +1,155 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Заголовки */
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Блок Приветствия */
+.hero {
+    background-color: #ffffff;
+    color: #333;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Блок О нас */
+.about {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Блок Услуг */
+.services {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.services ul {
+    list-style-type: none;
+}
+
+.services li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Блок Отзывы */
+.reviews {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.reviews .review {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.reviews .review p {
+    font-style: italic;
+    color: #555;
+}
+
+.reviews cite {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #777;
+}
+
+/* Блок Адреса */
+.addresses {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.addresses ul {
+    list-style-type: none;
+}
+
+.addresses li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Блок Контакты */
+.contacts {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.contacts p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.contacts a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Стили для футера */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .services li, .addresses li {
+        font-size: 1rem;
+    }
+}
